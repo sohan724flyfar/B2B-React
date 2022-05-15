@@ -39,7 +39,7 @@ const HomeNav = () => {
   };
   return (
     <Box>
-      <AppBar position="static">
+      <AppBar position="static" className="home-nav">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
